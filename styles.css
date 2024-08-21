@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  background-color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+section h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+label {
+  font-weight: 600;
+}
+div {
+  position: relative;
+  left: 22%;
+  width: 50%;
+}
+section {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+section ul li {
+  text-align: justify;
+
+  margin-bottom: 20px;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f4f4f4;
+}
+.social-icons a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn color /
+}
+.social-icons a.instagram:hover {
+    color: #E1306C; / Instagram color /
+}
+.social-icons a.facebook:hover {
+    color: #1877F2; / Facebook color */
+}
+
+@media only screen and (max-width: 900px) {
+  img {
+    width: 250px;
+    height: 250px;
+  }
+  section ul li {
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  div {
+    position: relative;
+    left: 0%;
+    width: 100%;
+  }
+}
